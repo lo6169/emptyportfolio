@@ -1,0 +1,113 @@
+body, html
+{
+    height: 100%;
+    margin: 0;
+    background-color: #c7d7f0;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg
+{
+    background-image: url("../media/bluemountains.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+}
+
+ul
+{
+    list-style-type: none;
+    position: absolute;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: #828282;
+    color: #bddeff;
+}
+
+.row
+{
+    display: flex;
+}
+
+.column
+{
+    flex: 50%;
+    padding: 5%;
+    font-size: 1.45em;
+}
+
+.title
+{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 0;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+}
+
+.jobs
+{
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+}
+
+.jobtitle
+{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.jobdesc
+{
+    text-align: left;
+    font-size: 1.15em;
+    line-height: 1.6;
+}
+
+.footer
+{
+    background-color: rgba(176, 255, 241, 0.4);
+    font-size: 1.15em;
+    text-align: center;
+    padding: 2%;
+    color: black;
+    width: 48%;
+    margin-left: 25%;
+}
+
+.footer a
+{
+    color: black;
+}

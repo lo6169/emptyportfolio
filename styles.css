@@ -1,0 +1,174 @@
+body
+{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+    background-color: #0B0C10;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/*
+Colors:
+    #0B0C10
+    #1F2833
+    #C5C6C7
+    #66FCF1
+    #45A29E
+ */
+
+h1
+{
+    text-decoration: none;
+    background-image: url("media/blackflowy.png");
+    padding: 5%;
+    color: #66FCF1;
+    font-size: 2em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+ul
+{
+    list-style-type: none;
+    border-top: 1px solid #45A29E;
+    margin-bottom: 4%;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: #66FCF1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover
+{
+    background-color: rgba(179, 179, 179, 0.25);
+}
+
+#hire
+{
+    background-color: Transparent;
+    border: 1px solid #66FCF1;
+    color: #66FCF1;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.25em;
+    margin: 1%;
+}
+
+#hire:hover
+{
+    background-color: #1F2833;
+}
+
+#hire2
+{
+    background-color: Transparent;
+    border: 1px solid #66FCF1;
+    color: #66FCF1;
+    text-align: center;
+    padding: 1%;
+    font-size: 1.25em;
+    margin: 1%;
+}
+
+#hire2:hover
+{
+    background-color: #1F2833;
+}
+
+hr
+{
+    border: 1px solid #45A29E;
+}
+
+hr.second
+{
+    border: 2px solid #45A29E;
+}
+
+hr.third
+{
+    border: 3px solid #45A29E;
+}
+
+.projects
+{
+    text-align: center;
+    color: #C5C6C7;
+    font-size: 1.75em;
+    margin: 2%;
+
+}
+
+.projects a
+{
+    color: #C5C6C7;
+}
+
+.projects img
+{
+    width: 80%;
+}
+
+.container
+{
+    width: 50%;
+    margin-left: 23%;
+    padding: 2%;
+    text-align: center;
+}
+
+#comment
+{
+    width: 40em;
+    height: 20em;
+}
+
+#vemail, #vname, #sub
+{
+    width: 20em;
+}
+
+#send
+{
+    height: 2em;
+    width: 5em;
+    text-align: center;
+}
+
+.inputkind
+{
+    color: #66FCF1;
+}
+
+h2
+{
+    color: #66FCF1;
+    background-color: transparent;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.reachme
+{
+    text-align: center;
+    font-size: 1.5em;
+    color: #66FCF1;
+}
+
+.reachme a
+{
+    color: #66FCF1;
+}
